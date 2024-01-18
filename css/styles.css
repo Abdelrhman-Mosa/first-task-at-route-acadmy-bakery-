@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.bt-top {
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  opacity: 0.5;
+}
+
+.bt-top:hover {
+  opacity: 1;
+}
+
+body {
+  margin: 0%;
+  font-family: "Arial, sans-serif";
+}
+.topnav-left {
+  float: left;
+  margin-left: 50px;
+}
+.topnav-right {
+  float: right;
+  margin: 20px 50px;
+  /* background-color: brown; */
+}
+.topnav {
+  /* padding: 10px 70px; */
+  /* background-color: blue; */
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  background-color: #8e7754;
+  opacity: 0.5;
+  border-bottom-left-radius: 30px;
+  /* border-bottom-right-radius: 10px; */
+  box-shadow: 0 2px 4px #000;
+}
+.a-nav {
+  /* margin-right: 30px; */
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.a-nav:hover {
+  color: black;
+}
+
+.clr {
+  clear: both;
+}
+
+.main-container {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  height: 775px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  display: inline-block;
+  /* background-color: aquamarine; */
+}
+.bt-down {
+  border: #000 1px solid;
+  border-radius: 100%;
+  width: 40px;
+  margin-inline: auto;
+  margin-top: 50px;
+  opacity: 0.6;
+}
+.bt-down:hover {
+  opacity: 1;
+}
+h2 {
+  font-family: "Alegreya Sans";
+  font-size: 60px;
+}
+.bt-main1 {
+  border-radius: 5px;
+  background-color: #8e7754;
+  border: 2px solid #8e7754;
+  color: #ffffff;
+  padding: 10px 17px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.bt-main2 {
+  border: 2px solid #fff;
+  color: #ffffff;
+  padding: 10px 17px;
+  font-size: 17px;
+  background-color: transparent;
+  margin-left: 10px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.bt-main1:hover {
+  color: black;
+  background: #ffffff;
+  cursor: pointer;
+}
+.bt-main2:hover {
+  color: black;
+  background: #ffffff;
+  cursor: pointer;
+}
+.who-we-are {
+  /* background-color: lightcoral; */
+  padding: 90px 60px 60px 65px;
+}
+.who-left-img {
+  display: inline-block;
+  /* background-color: aquamarine; */
+  margin-right: 30px;
+  vertical-align: top;
+}
+.who-right-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 47%;
+  margin-left: 30px;
+  font-size: 17px;
+  font-family: "Alegreya Sans";
+
+  /* background-color: aquamarine; */
+}
+h3 {
+  font-size: 35px;
+  font-family: "Alegreya Sans";
+}
+.p-who {
+  line-height: 2;
+  color: #686868;
+  font-weight: 400;
+}
+.who-ul {
+  list-style: none;
+  padding: 0;
+  color: #686868;
+}
+.who-img-li {
+  margin: 10px;
+  vertical-align: middle;
+  border: #686868 solid 1px;
+  border-radius: 100%;
+}
+.our-location {
+  background-color: #f8f8f8;
+  padding: 90px 60px 60px 65px;
+}
+.our-location-text-left {
+  width: 47%;
+  display: inline-block;
+  margin-right: 30px;
+}
+.our-location-img-right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  width: 47%;
+}
+.our-baking {
+  padding: 50px 60px 60px 65px;
+  text-align: center;
+}
+.product {
+  float: left;
+  width: 33.3333333%;
+}
+.contact {
+  background-color: #f8f8f8;
+  padding: 60px 60px 60px 65px;
+}
+.contact-text-left {
+  /* width: 47%; */
+  float: left;
+  margin-right: 20px;
+}
+.contact-ul {
+  list-style: none;
+  padding: 0%;
+  color: #686868;
+}
+.contact-li {
+  margin-block: 20px;
+}
+.contact-img-li {
+  border-radius: 50%;
+  background-color: #8e7754;
+  float: left;
+}
+.contact-p-li {
+  float: left;
+  margin: 10px;
+}
+.contact-map-right {
+  float: left;
+  margin-left: 30px;
+  margin-block: 20px;
+}
+.footer-main {
+  background-color: #403d38;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.footer-top {
+  width: 90%;
+  /* height: 400px; */
+  /* background-color: aqua; */
+  margin-inline: auto;
+  margin-block: 20px;
+}
+.about-us {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.p-footer {
+  color: #969696;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.ul-footer {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.img-footer-list {
+  float: left;
+  margin-block: 20px;
+}
+.p-footer-list {
+  color: #969696;
+  float: left;
+  line-height: 1.5;
+}
+.li-footer {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.05);
+}
+.about-us-last {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.ul-footer-last {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+  background-image: url(../images/contact-details-map2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-us-last a {
+  margin: 20px 0;
+  text-decoration: none;
+  /* color: #ffffff; */
+}
+.bottom {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #353330;
+  text-align: center;
+}
+.p-bottom {
+  font-size: 14px;
+  color: #797979;
+}
+.bottom-container-imgs {
+  /* background-color: #000; */
+  width: 25%;
+  padding: 10px;
+  margin-inline: auto;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.img-bottom-face{
+  border-radius: 50%;
+  background-color: #484540;
+  /* float: left; */
+  margin-right: 5px;
+  width: 37px;
+}
+.img-bottom-face:hover{
+  background-color: #0275d8;
+  cursor: pointer;
+}
+.img-bottom-google{
+  border-radius: 50%;
+  background-color: #484540;
+  /* float: left; */
+  margin-right: 5px;
+  width: 37px;
+}
+.img-bottom-google:hover{
+  background-color: #D24545;
+  cursor: pointer;
+}
+.img-bottom-linkedin{
+  border-radius: 50%;
+  background-color: #484540;
+  /* float: left; */
+  margin-right: 5px;
+  width: 37px;
+}
+.img-bottom-linkedin:hover{
+  background-color:#3468C0 ;
+  cursor: pointer;
+}
+.img-bottom-twitter{
+  border-radius: 50%;
+  background-color: #484540;
+  /* float: left; */
+  margin-right: 5px;
+  width: 37px;
+}
+.img-bottom-twitter:hover{
+  background-color: #86A7FC;
+  cursor: pointer;
+}
+/*  */
+
+
+/* .layer-dark{
+  background-color: rgba(255, 255, 255, 1);
+  background-color: #8e7754;
+} */
+
+/* #403d38 light
+#353330 dark */
